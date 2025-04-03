@@ -1,0 +1,13 @@
+/* Example userChrome.css file */
+
+/* Import your desired components first */
+
+@import url(chrome/hide_tabs_toolbar_v2.css);
+
+:root{
+  #sidebar-header {
+    display: none;
+  }
+}
+
+/* Apply your custom modifications after imports */
